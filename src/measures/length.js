@@ -1,7 +1,4 @@
-import { Measure, MeasureKind } from '../types';
-
-export const length: Measure = {
-  kind: MeasureKind.Length,
+export const length = {
   units: [
     { names: ['meter', 'meters'], symbols: ['m'], ratio: 1 },
     { names: ['kilometer', 'kilometers'], symbols: ['km'], ratio: 0.001 },

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { convert } from '../src/convert';
+import { convert } from '../src/index';
 
 describe('Mass conversions', () => {
   it('should convert kg to grams', () => {

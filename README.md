@@ -1,4 +1,4 @@
-# Simple Convert
+# Simple Unit Convertor
 
 A simple and fast unit conversion library for JavaScript and TypeScript.
 
@@ -15,7 +15,7 @@ A simple and fast unit conversion library for JavaScript and TypeScript.
 ### Basic conversions
 
 ```javascript
-import { convert } from 'simple-convert';
+import { convert } from 'simple-unit-convertor';
 
 // Mass conversions
 convert(1, 'kg').to('pounds'); // { value: 2.20462, unit: 'pounds' }

@@ -1,7 +1,4 @@
-import { Measure, MeasureKind } from '../types';
-
-export const mass: Measure = {
-  kind: MeasureKind.Mass,
+export const mass = {
   units: [
     { names: ['gram', 'grams'], symbols: ['g'], ratio: 1 },
     { names: ['kilogram', 'kilograms'], symbols: ['kg'], ratio: 0.001 },
